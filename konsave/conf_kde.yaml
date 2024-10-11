@@ -36,41 +36,57 @@ save:
     configs:
         location: "$CONFIG_DIR"
         entries:
+            - KDE
+            - Kvantum
+            - PlasmaUserFeedback
+            - breezerc
+            - dolphinrc
             - gtk-2.0
             - gtk-3.0
             - gtk-4.0
-            - kate
-            - Kvantum
-            - latte
-            - dolphinrc
-            - katerc
-            - konsolerc
-            - kcminputrc
-            - kdeglobals
-            - kglobalshortcutsrc
-            - klipperrc
-            - krunnerrc
-            - kscreenlockerrc
-            - ksmserverrc
-            - kwinrc
-            - kwinrulesrc
-            - plasma-org.kde.plasma.desktop-appletsrc
-            - plasmarc
-            - plasmashellrc
             - gtkrc
             - gtkrc-2.0
-            - lattedockrc
-            - breezerc
-            - oxygenrc
-            - lightlyrc
-            - ksplashrc
+            - kate
+            - katerc
+            - katevirc
+            - kcminputrc
+            - kcminputrc
+            - kde.org
+            - kdeconnect
+            - kded5rc
+            - kded6rc
+            - kdedefaults
+            - kdeglobals
+            - kdenlive-layoutsrc
+            - kdenliverc
+            - kglobalshortcutsrc
+            - kglobalshortcutsrc
             - khotkeysrc
-
-    app_layouts:
-        location: "$HOME/.local/share/kxmlgui5"
-        entries:
-            - dolphin
-            - konsole
+            - kiorc
+            - klipperrc
+            - konsolerc
+            - konsolerc
+            - kritadisplayrc
+            - kritarc
+            - krunnerrc
+            - kscreenlockerrc
+            - kservicemenurc
+            - ksmserverrc
+            - ksplashrc
+            - ksplashrc
+            - ktimezonedrc
+            - ktrashrc
+            - kwinrc
+            - kwinrulesrc
+            - latte
+            - lattedockrc
+            - lightlyrc
+            - oxygenrc
+            - plasma-localerc
+            - plasma-org.kde.plasma.desktop-appletsrc
+            - plasma-workspace
+            - plasmarc
+            - plasmashellrc
 
     # Here are a few examples of how you can add more stuff to back up.
     # Uncomment these lines if you want.
@@ -84,29 +100,28 @@ save:
     #     entries:
     #         - settings.json
 
-
 # The following files will only be used for exporting and importing.
 export:
     share_folder:
         location: "$SHARE_DIR"
         entries:
-            - plasma
-            - kwin
-            - konsole
-            - fonts
-            - color-schemes
             - aurorae
+            - color-schemes
+            - fonts
             - icons
+            - konsole
+            - kwin
+            - kxmlgui5
+            - plasma
             - wallpapers
 
     home_folder:
         location: "$HOME/"
         entries:
             - .fonts
-            - .themes
             - .icons
-    
-        
+            - .themes
+
     # You can add more files to export like this
     # name:
     #     location: "path/to/parent/directory"
@@ -115,4 +130,3 @@ export:
     #         - file2
     #         - folder1
     #         - folder2
-...
